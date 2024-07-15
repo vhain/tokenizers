@@ -1,3 +1,3 @@
-# `tokenizers-linux-arm-gnueabihf`
+# `@tmfi/tokenizers-linux-arm-gnueabihf`
 
-This is the **armv7-unknown-linux-gnueabihf** binary for `tokenizers`
+This is the **armv7-unknown-linux-gnueabihf** binary for `@tmfi/tokenizers`

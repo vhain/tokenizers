@@ -1,3 +1,3 @@
-# `tokenizers-win32-x64-msvc`
+# `@tmfi/tokenizers-win32-x64-msvc`
 
-This is the **x86_64-pc-windows-msvc** binary for `tokenizers`
+This is the **x86_64-pc-windows-msvc** binary for `@tmfi/tokenizers`

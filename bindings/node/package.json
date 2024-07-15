@@ -1,17 +1,14 @@
 {
-  "name": "tokenizers",
-  "version": "0.15.3-dev0",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/huggingface/tokenizers.git"
-  },
+  "name": "@tmfi/tokenizers",
+  "version": "0.19.1-dev0",
+  "repository": "https://github.com/vhain/tokenizers",
   "bugs": {
     "url": "https://github.com/huggingface/tokenizers/issues"
   },
   "homepage": "https://github.com/huggingface/tokenizers/tree/master/bindings/node",
   "author": "Anthony MOI <m.anthony.moi@gmail.com>",
   "license": "Apache-2.0",
-  "description": "Provides an implementation of today's most used tokenizers, with a focus on performances and versatility.",
+  "description": "Forked from huggingface/tokenizers. Provides an implementation of today's most used tokenizers, with a focus on performances and versatility.",
   "files": [
     "index.d.ts",
     "index.js"
@@ -21,16 +18,17 @@
     "triples": {
       "defaults": true,
       "additional": [
-        "x86_64-unknown-linux-musl",
-        "aarch64-unknown-linux-gnu",
-        "i686-pc-windows-msvc",
-        "armv7-unknown-linux-gnueabihf",
         "aarch64-apple-darwin",
         "aarch64-linux-android",
-        "x86_64-unknown-freebsd",
+        "aarch64-unknown-linux-gnu",
         "aarch64-unknown-linux-musl",
         "aarch64-pc-windows-msvc",
-        "armv7-linux-androideabi"
+        "armv7-unknown-linux-gnueabihf",
+        "x86_64-unknown-linux-musl",
+        "i686-pc-windows-msvc",
+        "armv7-linux-androideabi",
+        "universal-apple-darwin",
+        "riscv64gc-unknown-linux-gnu"
       ]
     }
   },
@@ -52,7 +50,8 @@
     "format:rs": "cargo fmt",
     "lint": "eslint . -c ./.eslintrc.yml",
     "prepublishOnly": "napi prepublish -t npm",
-    "test": "jest",
+    "universal": "napi universal",
+    "test": "jest --testPathIgnorePatterns examples/",
     "version": "napi version"
   },
   "devDependencies": {

@@ -1,6 +1,6 @@
 {
-  "name": "tokenizers-darwin-arm64",
-  "version": "0.13.4-rc1",
+  "name": "@tmfi/tokenizers-darwin-arm64",
+  "version": "0.19.1-dev0",
   "os": [
     "darwin"
   ],
@@ -11,16 +11,10 @@
   "files": [
     "tokenizers.darwin-arm64.node"
   ],
-  "description": "Tokenizers platform specific bindings",
-  "keywords": [
-    "napi-rs",
-    "NAPI",
-    "N-API",
-    "Rust",
-    "node-addon",
-    "node-addon-api"
-  ],
-  "license": "MIT",
+  "description": "Forked from huggingface/tokenizers. Provides an implementation of today's most used tokenizers, with a focus on performances and versatility.",
+  "author": "Anthony MOI <m.anthony.moi@gmail.com>",
+  "homepage": "https://github.com/huggingface/tokenizers/tree/master/bindings/node",
+  "license": "Apache-2.0",
   "engines": {
     "node": ">= 10"
   },
@@ -28,5 +22,8 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "repository": "tokenizers"
+  "repository": "https://github.com/vhain/tokenizers",
+  "bugs": {
+    "url": "https://github.com/huggingface/tokenizers/issues"
+  }
 }
