@@ -1,15 +1,12 @@
 {
-  "name": "@tmfi/tokenizers-win32-arm64-msvc",
+  "name": "@tmfi/tokenizers-darwin-universal",
   "version": "0.19.1-dev0",
   "os": [
-    "win32"
+    "darwin"
   ],
-  "cpu": [
-    "arm64"
-  ],
-  "main": "tokenizers.win32-arm64-msvc.node",
+  "main": "tokenizers.darwin-universal.node",
   "files": [
-    "tokenizers.win32-arm64-msvc.node"
+    "tokenizers.darwin-universal.node"
   ],
   "description": "Forked from huggingface/tokenizers. Provides an implementation of today's most used tokenizers, with a focus on performances and versatility.",
   "author": "Anthony MOI <m.anthony.moi@gmail.com>",

@@ -1,3 +1,3 @@
-# `tokenizers-darwin-x64`
+# `@tmfi/tokenizers-darwin-x64`
 
-This is the **x86_64-apple-darwin** binary for `tokenizers`
+This is the **x86_64-apple-darwin** binary for `@tmfi/tokenizers`
