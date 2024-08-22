@@ -1,6 +1,6 @@
 {
-  "name": "tokenizers",
-  "version": "0.15.3-dev0",
+  "name": "@tmfi/tokenizers",
+  "version": "0.20.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/huggingface/tokenizers.git"
@@ -21,16 +21,17 @@
     "triples": {
       "defaults": true,
       "additional": [
-        "x86_64-unknown-linux-musl",
-        "aarch64-unknown-linux-gnu",
-        "i686-pc-windows-msvc",
-        "armv7-unknown-linux-gnueabihf",
         "aarch64-apple-darwin",
         "aarch64-linux-android",
-        "x86_64-unknown-freebsd",
+        "aarch64-unknown-linux-gnu",
         "aarch64-unknown-linux-musl",
         "aarch64-pc-windows-msvc",
-        "armv7-linux-androideabi"
+        "armv7-unknown-linux-gnueabihf",
+        "x86_64-unknown-linux-musl",
+        "i686-pc-windows-msvc",
+        "armv7-linux-androideabi",
+        "universal-apple-darwin",
+        "riscv64gc-unknown-linux-gnu"
       ]
     }
   },
@@ -52,7 +53,8 @@
     "format:rs": "cargo fmt",
     "lint": "eslint . -c ./.eslintrc.yml",
     "prepublishOnly": "napi prepublish -t npm",
-    "test": "jest",
+    "universal": "napi universal",
+    "test": "jest --testPathIgnorePatterns examples/",
     "version": "napi version"
   },
   "devDependencies": {

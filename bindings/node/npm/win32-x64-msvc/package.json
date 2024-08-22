@@ -1,6 +1,6 @@
 {
-  "name": "tokenizers-win32-x64-msvc",
-  "version": "0.13.4-rc1",
+  "name": "@tmfi/tokenizers-win32-x64-msvc",
+  "version": "0.20.0",
   "os": [
     "win32"
   ],

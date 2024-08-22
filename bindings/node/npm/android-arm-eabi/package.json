@@ -1,6 +1,6 @@
 {
-  "name": "tokenizers-android-arm-eabi",
-  "version": "0.13.4-rc1",
+  "name": "@tmfi/tokenizers-android-arm-eabi",
+  "version": "0.20.0",
   "os": [
     "android"
   ],

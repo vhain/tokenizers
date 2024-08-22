@@ -1,15 +1,15 @@
 {
-  "name": "@tmfi/tokenizers-win32-arm64-msvc",
+  "name": "@tmfi/tokenizers-linux-riscv64-gnu",
   "version": "0.20.0",
   "os": [
-    "win32"
+    "linux"
   ],
   "cpu": [
-    "arm64"
+    "riscv64"
   ],
-  "main": "tokenizers.win32-arm64-msvc.node",
+  "main": "tokenizers.linux-riscv64-gnu.node",
   "files": [
-    "tokenizers.win32-arm64-msvc.node"
+    "tokenizers.linux-riscv64-gnu.node"
   ],
   "description": "Tokenizers platform specific bindings",
   "keywords": [
@@ -28,5 +28,8 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "repository": "tokenizers"
+  "repository": "tokenizers",
+  "libc": [
+    "glibc"
+  ]
 }

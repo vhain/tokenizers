@@ -1,15 +1,12 @@
 {
-  "name": "tokenizers-freebsd-x64",
-  "version": "0.13.4-rc1",
+  "name": "@tmfi/tokenizers-darwin-universal",
+  "version": "0.20.0",
   "os": [
-    "freebsd"
+    "darwin"
   ],
-  "cpu": [
-    "x64"
-  ],
-  "main": "tokenizers.freebsd-x64.node",
+  "main": "tokenizers.darwin-universal.node",
   "files": [
-    "tokenizers.freebsd-x64.node"
+    "tokenizers.darwin-universal.node"
   ],
   "description": "Tokenizers platform specific bindings",
   "keywords": [

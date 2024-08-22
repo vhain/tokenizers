@@ -1,6 +1,6 @@
 {
-  "name": "tokenizers-linux-arm64-musl",
-  "version": "0.13.4-rc1",
+  "name": "@tmfi/tokenizers-linux-arm64-musl",
+  "version": "0.20.0",
   "os": [
     "linux"
   ],

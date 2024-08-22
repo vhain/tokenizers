@@ -1,3 +1,3 @@
-# `tokenizers-linux-arm64-musl`
+# `@tmfi/tokenizers-linux-arm64-musl`
 
-This is the **aarch64-unknown-linux-musl** binary for `tokenizers`
+This is the **aarch64-unknown-linux-musl** binary for `@tmfi/tokenizers`
