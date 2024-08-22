@@ -1,15 +1,12 @@
 {
-  "name": "@tmfi/tokenizers-linux-arm64-musl",
+  "name": "@tmfi/tokenizers-darwin-universal",
   "version": "0.20.0-dev0",
   "os": [
-    "linux"
+    "darwin"
   ],
-  "cpu": [
-    "arm64"
-  ],
-  "main": "tokenizers.linux-arm64-musl.node",
+  "main": "tokenizers.darwin-universal.node",
   "files": [
-    "tokenizers.linux-arm64-musl.node"
+    "tokenizers.darwin-universal.node"
   ],
   "description": "Tokenizers platform specific bindings",
   "keywords": [
@@ -28,8 +25,5 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "repository": "https://github.com/vhain/tokenizers",
-  "libc": [
-    "musl"
-  ]
+  "repository": "https://github.com/vhain/tokenizers"
 }

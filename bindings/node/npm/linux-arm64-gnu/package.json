@@ -1,6 +1,6 @@
 {
-  "name": "tokenizers-linux-arm64-gnu",
-  "version": "0.13.4-rc1",
+  "name": "@tmfi/tokenizers-linux-arm64-gnu",
+  "version": "0.20.0-dev0",
   "os": [
     "linux"
   ],
@@ -28,7 +28,7 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "repository": "tokenizers",
+  "repository": "https://github.com/vhain/tokenizers",
   "libc": [
     "glibc"
   ]

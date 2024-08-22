@@ -1,6 +1,6 @@
 {
-  "name": "tokenizers-android-arm-eabi",
-  "version": "0.13.4-rc1",
+  "name": "@tmfi/tokenizers-android-arm-eabi",
+  "version": "0.20.0-dev0",
   "os": [
     "android"
   ],
@@ -28,5 +28,5 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "repository": "tokenizers"
+  "repository": "https://github.com/vhain/tokenizers"
 }

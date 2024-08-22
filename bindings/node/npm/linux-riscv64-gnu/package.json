@@ -1,15 +1,15 @@
 {
-  "name": "tokenizers-freebsd-x64",
-  "version": "0.13.4-rc1",
+  "name": "@tmfi/tokenizers-linux-riscv64-gnu",
+  "version": "0.20.0-dev0",
   "os": [
-    "freebsd"
+    "linux"
   ],
   "cpu": [
-    "x64"
+    "riscv64"
   ],
-  "main": "tokenizers.freebsd-x64.node",
+  "main": "tokenizers.linux-riscv64-gnu.node",
   "files": [
-    "tokenizers.freebsd-x64.node"
+    "tokenizers.linux-riscv64-gnu.node"
   ],
   "description": "Tokenizers platform specific bindings",
   "keywords": [
@@ -28,5 +28,8 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "repository": "tokenizers"
+  "repository": "https://github.com/vhain/tokenizers",
+  "libc": [
+    "glibc"
+  ]
 }
